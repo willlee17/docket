@@ -24,3 +24,10 @@ export const createProject = (project) => {
     })
   }
 }
+// Before redux and thunk 
+// export const createProject = (project) => {
+//   return {
+//     type: "ADD_PROJECT",
+//     project: project,
+//   }
+// }
